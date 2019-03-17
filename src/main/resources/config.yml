@@ -15,13 +15,13 @@ Tablist:
   # nametag. It will allow you to bypass the 16 character limit
   # for prefix/suffix. Be warned: This does not work on earlier versions
   # of Minecraft. Please report issues to our GitHub, and we'll try to help.
-  LongTags: false
+  LongTags: true
 #
 # If enabled, this plugin will send small data MCStats.org.
 MetricsEnabled: true
 #
 # If enabled, players with NametagEdit nametags will not be able to push each other (1.9+)
-DisablePush: false
+DisablePush: true
 #
 # Do you have strange, unexplained lag emanating from NametagEdit? Likely it's a few plugins
 # manipulating the primary scoreboard, and not clearing the resources. This setting will
@@ -32,7 +32,7 @@ ClearEmptyTeamsInterval: -1
 #
 # If enabled, NametagEdit will turn your console into spam
 # heaven. Useful for reporting issues!
-Debug: false
+Debug: true
 #
 # Some servers have different permissions per world, and therefore different potential nametags
 # per world. If you want to refresh a player's nametag when they change worlds, set
